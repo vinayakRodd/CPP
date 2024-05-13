@@ -27,6 +27,7 @@ int main(){
 
     int n;
 
+    cout<<"Enter the number of lines: ";
     cin>>n;
 
     print1(n);

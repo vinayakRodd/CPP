@@ -1,3 +1,17 @@
+/*
+if n = 5 --> Input
+
+Output:-
+
+        * * * * * 
+        * * * * 
+        * * * 
+        * * 
+        * 
+
+*/
+
+
 #include <iostream>
 using namespace  std;
 

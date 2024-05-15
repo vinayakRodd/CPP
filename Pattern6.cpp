@@ -1,5 +1,7 @@
 /*
-    Enter the number of lines: 5
+    Enter the number of lines: 5 --> Input
+    
+    Output:-
     
      * 
     * * 

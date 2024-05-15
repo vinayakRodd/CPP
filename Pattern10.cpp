@@ -1,5 +1,7 @@
-/* Output:- if n = 4
+/* Input:- n=4
 
+ Output:-
+ 
       1      1
       12    21
       123  321

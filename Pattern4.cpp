@@ -2,6 +2,7 @@
 
 Enter the number of lines: 5 --> Input
 
+Ouput:- 
 
 1
 22

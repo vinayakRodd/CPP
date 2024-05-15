@@ -1,3 +1,22 @@
+/*
+    Enter the number of lines: 5 --> Input
+
+Output:- 
+
+    
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+*/
+
+
 #include <iostream>
 using namespace  std;
 
@@ -13,7 +32,6 @@ void print1(int n){
         if(i > n)
             stars = 2*n-i;
             
-        cout<<stars;
 
         for(int j=1; j<=stars; j++)
             cout<<"* ";

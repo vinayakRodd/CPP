@@ -1,3 +1,18 @@
+/*
+
+Enter the number of lines: 5 -->Input
+
+Ouput:-
+
+ * * * * * 
+  * * * * 
+   * * * 
+    * * 
+     * 
+     
+*/
+
+
 #include <iostream>
 using namespace  std;
 

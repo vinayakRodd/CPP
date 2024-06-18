@@ -1,0 +1,45 @@
+// Online C++ compiler to run C++ program online
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    
+    int n;
+    cin>>n;
+    
+    vector<int> v;
+    
+    int ele;
+    
+    for(int i=0; i<n; i++){
+        
+        cout<<"Enter the element: ";
+        cin>>ele;
+        v.push_back(ele);
+    }
+    
+    int shift;
+    
+    cout<<"Enter the shift value: ";
+    cin>>shift;
+    
+    int temp;
+    
+    for(int i=0; i<shift; i++){
+        
+        temp = v[0];
+        for(int i=0; i<n-1; i++)
+            v[i] = v[i+1];
+            
+        v[n-1] = temp;
+        
+    }
+    
+    cout<<"After shifting by shift value the array is: ";
+    for(auto it = v.begin(); it<v.end(); it++)
+        cout<<*it<<" ";
+    
+
+    return 0;
+}
